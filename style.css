@@ -17,7 +17,7 @@ body {
 	color: #645D87;
 	text-decoration: underline #645D87;
 }
-input[type=text], select {
+input[type=text] {
   width: 500px;
   padding: 12px 20px;
   margin: 8px 0;
@@ -25,6 +25,9 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 10px;
   box-sizing: border-box;
+}
+input[type=text]:focus {
+	outline: 0px;
 }
 p {
 	font-family: 'Lekton', sans-serif;
